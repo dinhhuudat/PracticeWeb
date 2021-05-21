@@ -1,0 +1,41 @@
+.block{
+    width: 600px;
+    height: 600px;
+    border:2px solid red; 
+    margin: 20px auto;
+}
+.box{
+    width: 100px;
+    height: 100px; 
+    text-align: center;
+    line-height: 100px;
+    
+}
+.boxA{
+    background-color: #9F6; 
+    position: absolute; 
+    margin-left: 20px;
+    top:100px;
+    z-index: 1001;
+}
+.boxB{
+    background-color: #FF0; 
+    position: absolute; 
+    margin-left: 100px;
+    top:125px ;
+    z-index: 1002;
+}
+.boxC{
+    background-color: #39F; 
+    position: absolute; 
+    top:85px;
+    left:300px;
+    z-index: 1000;
+}
+.boxD{
+    background-color: #C9C;
+    position: absolute; 
+    top:90px;
+    left:250px;
+    z-index: 1003;
+}

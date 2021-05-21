@@ -1,0 +1,25 @@
+ 
+.slider{
+    margin: 20px auto;
+    border: 2px solid red;
+    width: 300px;
+    height: 100px;
+    padding: 3px;
+    overflow: hidden;
+
+}
+.All_img{ 
+    width: 600px;  
+    display: inline-block;
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+.image{
+    border: 2px solid white; 
+    float: left;
+}
+.image img{
+    width: 100px;
+    height: 100px;  
+}

@@ -1,47 +1,20 @@
- 
- #main{
-     width: 1000px;
-     margin: 0 auto;  
- }
-.left{  
-     background-color: green;
-     width: 28%; 
-     float: left; 
-     padding : 0 1%;
-}
-.content{ 
-    background-color: red;
-    width: 38%;
-    float: left;
-    padding : 0 1%;
-}
-.right{ 
-    background-color: orange;
-    width: 28%; 
-    float: right;
-    padding : 0 1%;
-}
-.clear{
-    clear: both;
-    text-align: justify;
-}
 .block{
-    width: 800px;
+    width: 600px;
+    height: 800px;
+    border:2px solid #999;
+    background: url(../PracticeWeb/Image/cat1.jpg) top center no-repeat;
     margin: 20px auto;
-    height: 250px;
-    border: 1px solid red;
 }
-.menu{
-    width: 100%;
-     list-style-type: none;
-     display: inline-block;
-     margin: 20px  auto;
-}
-.menu li{
-    width: 100px;
-    height:20px;
-    border: 1px solid ;
-    float: left;
-    margin-left: 2px;
+.box{
+    width: 50px;
+    height: 30px;
+    border:1px solid #009;
+    background-color: #0F9; 
     text-align: center;
+    line-height: 30px;
+}
+.menu-left{
+ top : 50%;
+ left : 20px;
+ position: fixed;
 }
